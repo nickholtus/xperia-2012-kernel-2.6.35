@@ -171,7 +171,7 @@ static int __init u8500_cpufreq_register(void)
 		freq_table[1].frequency = 400000;
 		freq_table[2].frequency = 800000;
 		if (prcmu_has_arm_maxopp())
-			freq_table[3].frequency = 1000000;
+			freq_table[3].frequency = 1100000;
 	}
 
 	INIT_DELAYED_WORK_DEFERRABLE(&work_wlan_workaround,
